@@ -2,3 +2,7 @@ body {
     margin: auto;
     width: 1160px;
 }
+
+.mainContent {
+    font-family: "Raleway", sans-serif;
+}

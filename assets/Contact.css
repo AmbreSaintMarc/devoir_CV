@@ -7,7 +7,8 @@
     justify-content: space-between;
     align-items: center;
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .contact>*:hover {
@@ -15,14 +16,14 @@
     text-decoration-color: white;
 }
 
-.email {
+.contact__email {
     color: white;
     text-decoration: none;
     flex-grow: 100;
     text-align: center;
 }
 
-.number {
+.contact__number {
     color: white;
     text-decoration: none;
     justify-content: start;
@@ -30,7 +31,7 @@
     text-align: right;
 }
 
-.address {
+.contact__address {
     color: white;
     text-decoration: none;
     flex-grow: 85;
