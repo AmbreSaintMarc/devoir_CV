@@ -1,6 +1,5 @@
-.header{
+.header {
     background-color: #782221;
-    width: 1160px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -8,20 +7,24 @@
     padding: 40px;
 }
 
-.header__name{
+.header__name {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.header__photo{
+.header__photo {
     width: 110px;
     height: 110px;
     border-radius: 50%;
     box-shadow: 0 0 8px white;
 }
 
-.header__profession{
+.header__photo:hover {
+    cursor: zoom-in;
+}
+
+.header__profession {
     font-size: 20px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
