@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./assets/leftcolumn.css"/>
     <link rel="stylesheet" href="./assets/right-column.css"/>
     <link rel="stylesheet" href="./assets/footer.css"/>
-    <link rel="icon" href="./assets/image/cat.jpg" type="image/jpg"/>
+    <link rel="icon" href="./assets/image/cv.png" type="image/jpg"/>
 </head>
 <body>
     <header class="header">
@@ -26,13 +26,15 @@
         <h1 class="header__name">Ambre Saint-Marc</h1>
         <h2 class="header__profession">Développeuse web junior</h2>
     </header>
-    <nav class="contact">
-        <a href="https://www.google.com/maps/place/Eiffel+Tower/@48.8583701,2.2944813,15z/data=!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE?entry=ttu" target=_blank class="contact__address">5 av Anatole France,<br /> 75007 Paris</a>
-        <a href="mailto:test@mail.com" class="contact__email">test@mail.com</a>
-        <a href="tel: 0606060606" class="contact__number">0606060606</a>
+    <nav>
+        <address class="contact">
+            <a href="https://www.google.com/maps/place/Eiffel+Tower/@48.8583701,2.2944813,15z/data=!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE?entry=ttu" target=_blank class="contact__address">5 av Anatole France,<br /> 75007 Paris</a>
+            <a href="mailto:test@mail.com" class="contact__email">test@mail.com</a>
+            <a href="tel: 0606060606" class="contact__number">0606060606</a>
+        </address>
     </nav>
     <main class="mainContent">
-        <section class="leftColumn">
+        <aside class="leftColumn">
             <h3 class="leftColumn__title">À propos</h3>
             <p class="leftColumn__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna urna, molestie tristique odio in, ultrices pulvinar lacus. Etiam non iaculis elit. Pellentesque facilisis lorem in eros viverra luctus. Vivamus eleifend est mauris, sed hendrerit felis condimentum vitae. Proin ornare vel leo vel egestas. Cras erat risus, varius ut dolor non, tempor pulvinar erat. Duis pulvinar diam vel porta dictum.</p>
             <h3 class="leftColumn__title">Langues parlées</h3>
@@ -48,7 +50,7 @@
                 <li>Jeux vidéos</li>
                 <li>Mon chat</li>
             </ul>
-        </section>
+        </aside>
         <section class="rightColumn">
             <!-- Ajout de section afin de pouvoir activer le hover au survol de chaque expériences -->
                 <h3 class="rightColumn__title">Expériences professionnelles</h3>
@@ -113,7 +115,22 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <nav class="footer__icon">
+        <a href="https://www.linkedin.com/" target="_blank" class="footer__icon__linkedin">
+            <img src="./assets/image/linkedin.png" alt="Ldinkedin Icon"/>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="footer__icon__twitter">
+            <img src="./assets/image/twitter.png" alt="Twitter Icon"/>
+        </a>
+        <a href="https://github.com/AmbreSaintMarc" target="_blank" class="footer__icon__github">
+            <img src="./assets/image/github.png" alt="GitHub Icon">
+        </a>
+    </nav>
+    <small>
+        <br/>
+        <p>Dernière mise à jour le 20.09.2023.</p>
+    </small>
     </footer>
 </body>
 </html>
