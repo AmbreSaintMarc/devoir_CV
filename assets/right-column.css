@@ -1,6 +1,6 @@
 .rightColumn {
     background-color: white;
-    display: flex;
+    display:flex;
     flex-direction: column;
     flex-grow: 1;
     padding: 0px 20px 0px 45px;
